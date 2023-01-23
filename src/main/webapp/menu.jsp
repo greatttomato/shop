@@ -45,6 +45,7 @@
 			} else {
 				icon = "logout.png";
 				url = "deleteLogin.jsp";
+				System.out.println(user.getU_power() + "," + user.getU_name());
 				if (user.getU_power().equals("m")) {
 		%>
 					<span id = "upload"><a href = "upload.jsp">UPLOAD</a></span>

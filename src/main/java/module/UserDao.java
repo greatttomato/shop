@@ -47,7 +47,7 @@ public class UserDao {
 			if (rs.next()) {
 				user.setU_id(id);
 				user.setU_name(rs.getString("u_name"));
-				user.setU_pwd(rs.getString("pwd"));
+				user.setU_pwd(rs.getString("u_password"));
 				user.setU_power(rs.getString("u_power"));
 				user.setU_phone(rs.getString("u_phone"));
 				user.setU_birth(rs.getString("u_address"));
