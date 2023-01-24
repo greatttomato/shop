@@ -46,7 +46,7 @@
 	<section>
 		<div id = "box_login">
 			<span>Login</span>
-			<form name = "login_information" action = "chekId.jsp" method = "post">
+			<form name = "login_information" action = "checkId.jsp" method = "post">
 				<div>
 					<input type = "text" name = "id" placeholder = "아이디"><br>
 					<input type = "password" name = "pwd" placeholder = "비밀번호">

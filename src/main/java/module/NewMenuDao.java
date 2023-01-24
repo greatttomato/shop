@@ -35,7 +35,6 @@ public class NewMenuDao {
 	
 	// 신메뉴 다 꺼내기
 	public ArrayList<NewMenu> getAllmenu() {
-		System.out.println("getAllmenu 들어");
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		ArrayList<NewMenu> list = new ArrayList<NewMenu> ();

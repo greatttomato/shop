@@ -21,7 +21,6 @@
 	// 인스턴스 생성 및 아이디에 해당하는 이름, 비밀번호 받아오기
 	UserDao dao = UserDao.getInstance();
 	User user = dao.selectOne(id);
-	System.out.println("user 객체 생성 ");
 	
 	String checkId = user.getU_id();
 	String checkPwd = user.getU_pwd();
@@ -32,6 +31,4 @@
 	} else {
 		response.sendRedirect("loginFail.jsp");
 	}
-	
-	session.setAttribute("userInfor", user);
 %>

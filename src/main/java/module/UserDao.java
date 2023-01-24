@@ -36,7 +36,6 @@ public class UserDao {
 	// 로그인 확인
 	public User selectOne(String id) {
 		User user = new User();
-		System.out.println("selecOne e들어왔다 ");
 		
 		try {
 			pstmt = conn.prepareStatement("SELECT * FROM user WHERE u_id = ?");
@@ -45,10 +44,10 @@ public class UserDao {
 			rs = pstmt.executeQuery();
 			
 			if (rs.next()) {
-				user.setU_id(id);
+				user.setU_id("u_id");
 				user.setU_name(rs.getString("u_name"));
 				user.setU_pwd(rs.getString("u_password"));
-				user.setU_power(rs.getString("u_power"));
+				user.setU_power(rs.getInt("u_power"));
 				user.setU_phone(rs.getString("u_phone"));
 				user.setU_birth(rs.getString("u_address"));
 			}

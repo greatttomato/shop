@@ -44,7 +44,7 @@
 					h = 12;
 				else
 					h = h-12;
-			}	
+			}
 			int m = day.getMinutes();
 			if (m < 10)
 				min = "0" + Integer.toString(m);

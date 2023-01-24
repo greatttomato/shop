@@ -2,7 +2,8 @@ package module;
 
 public class User {
 	String u_id, u_name, u_pwd;
-	String u_power, u_phone, u_birth, u_address;
+	String u_phone, u_birth, u_address;
+	int u_power;
 	
 	public User() {
 	}
@@ -25,10 +26,10 @@ public class User {
 	public void setU_pwd(String u_pwd) {
 		this.u_pwd = u_pwd;
 	}
-	public String getU_power() {
+	public int getU_power() {
 		return u_power;
 	}
-	public void setU_power(String u_power) {
+	public void setU_power(int u_power) {
 		this.u_power = u_power;
 	}
 	public String getU_phone() {

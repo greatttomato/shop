@@ -39,14 +39,14 @@
 			String icon;
 			String url;
 			
-			if ( user == null) {			// user 객체에 값이 들어가
+			if ( user == null ) {			// user 객체에 값이 들어가
 				icon = "login.png";			// 로그인 아이콘 
 				url = "login.jsp";			// 버튼 클릭 시 이동할 화면
 			} else {
 				icon = "logout.png";
 				url = "deleteLogin.jsp";
 				System.out.println(user.getU_power() + "," + user.getU_name());
-				if (user.getU_power().equals("m")) {
+				if (user.getU_power() == 1) {
 		%>
 					<span id = "upload"><a href = "upload.jsp">UPLOAD</a></span>
 		<%
