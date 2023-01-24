@@ -15,7 +15,8 @@ public class UserDao {
 	private UserDao() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/market?severTimezone=UTC","root","1111");
+			String dbURL = "jdbc:mysql://localhost:3306/market?severTimezone=UTC";
+			conn = DriverManager.getConnection(dbURL,"root","1111");
 			System.out.println("성공");
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -44,7 +45,7 @@ public class UserDao {
 			rs = pstmt.executeQuery();
 			
 			if (rs.next()) {
-				user.setU_id("u_id");
+				user.setU_id(rs.getString("u_id"));
 				user.setU_name(rs.getString("u_name"));
 				user.setU_pwd(rs.getString("u_password"));
 				user.setU_power(rs.getInt("u_power"));

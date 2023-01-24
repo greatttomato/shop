@@ -24,6 +24,7 @@
 	
 	String checkId = user.getU_id();
 	String checkPwd = user.getU_pwd();
+	System.out.println("checkId = " + checkId + ", checkPwd = " + checkPwd);
 	
 	if (id.equals(checkId) && pwd.equals(checkPwd)) {
 		session.setAttribute("userInfor", user);
