@@ -23,7 +23,7 @@
 	
 	section { width: 100%; padding: 10px; text-align: center; }
 	#title { font-family: 'Bebas Neue', cursive; font-size: 24px; color: #C1C1C1; margin-bottom: 25px; }
-	section>.product { display: inline-block; width: 250px; height: 300px; text-align: center; }
+	section>.product { display: inline-block; width: 250px; height: 250px; text-align: center; }
 	section>.product>p { margin-top: 5px; font-family: 'Bebas Neue', cursive;
 						 font-family: 'Noto Sans KR', sans-serif;}
 	section>.product>p:nth-of-type(1) { font-weight: bold; }

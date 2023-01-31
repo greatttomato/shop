@@ -10,7 +10,7 @@
 	request.setCharacterEncoding("UTF-8");
 	
 	String filename = "";
-	String realFolder = "C:\\Users\\kcd\\Desktop\\JSP\\이클립스자바코드\\jsp_project\\src\\main\\webapp\\image"; //웹 어플리케이션 절대 경로
+	String realFolder = "/Users/yunjin/Desktop/code/web/Mall-master/src/main/webapp/image";
 	String encType = "utf-8";		  //인코딩 타입
 	int maxSize = 5*1024*1024;		  //최대 업로드될 파일의 크기 5Mb
 	
