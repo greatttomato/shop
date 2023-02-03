@@ -22,7 +22,7 @@
 	#banner { width: 100%; height: 300px; background-image: url("image/image.jpg");
 			  background-repeat: no-repeat; background-position: center; background-size: cover; }
 	#greeting { text-align: right; padding: 10px; }
-	#new { width: 100%; height: 400px; padding: 10px; text-align: center; }
+	#new { width: 100%; height: auto; padding: 10px; text-align: center; }
 	#new>p { font-family: 'Bebas Neue', cursive; font-size: 24px; color: #C1C1C1; margin-bottom: 10px; }
 </style>
 </head>

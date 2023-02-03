@@ -21,7 +21,7 @@
 	<style>
 		header { width: 100%; height: 90px; position: relative; }
 		header>img { position: absolute; left: 50px; top: 25px; }
-		header>#product_name { position: absolute; left: 90px; top: 15px;
+		header #product_name { position: absolute; left: 90px; top: 15px;
 						font-family: 'Bebas Neue', cursive; font-family: 'Noto Sans KR', sans-serif; font-size: 28px; 
 						font-weight: bold; width: 100%; height: 30px; color: #A4A4A4; }
 		hr { position: absolute; left: 0; top: 45px;

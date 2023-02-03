@@ -23,7 +23,11 @@
 							 font-size: 28px; }
 	#menu>span:nth-of-type(3) {position: absolute; left: 300px; top: 30px; font-family: 'Bebas Neue', cursive; 
 							 font-size: 28px; }
-	#upload {position: absolute; left: 370px; top: 30px; font-family: 'Bebas Neue', cursive; 
+	#menu>span:nth-of-type(4) {position: absolute; left: 370px; top: 30px; font-family: 'Bebas Neue', cursive; 
+							 font-size: 28px; }
+	#menu>span:nth-of-type(5) {position: absolute; left: 450px; top: 30px; font-family: 'Bebas Neue', cursive; 
+							 font-size: 28px; }
+	#upload {position: absolute; left: 575px; top: 30px; font-family: 'Bebas Neue', cursive; 
 							 font-size: 28px; }
 	#icon {position: absolute; right: 30px; top: 20px; }							 							
 </style>
@@ -33,6 +37,8 @@
 		<span><a href = "home.jsp">CAFFEYUNE</a></span>
 		<span><a href = "products.jsp">PRODUCT</a></span>
 		<span><a href = "cart.jsp">CART</a></span>
+		<span><a href = "store.jsp">STORE</a></span>
+		<span><a href = "community.jsp">COMMUNITY</a></span>
 		
 		<%
 			User user = (User) session.getAttribute("userInfor");
